@@ -1,6 +1,8 @@
 *.egg-info/
 build/
 *_pb2*.py*
+!schema/protobuf/et_def_pb2.py
+!schema/protobuf/et_def_pb2_legacy_submodule.py
 *.pyc
 __pycache__/
 *.egg
